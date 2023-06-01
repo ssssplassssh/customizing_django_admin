@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "customizing-django-admin"
+version = "0.1.0"
+description = ""
+authors = ["ssssplassssh <igorrosolovskij2016@gmail.com>"]
+readme = "README.md"
+packages = [{include = "customizing_django_admin"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
